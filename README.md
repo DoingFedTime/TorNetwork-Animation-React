@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Tor Network Animation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Tor Network Animation](https://i.imgur.com/VYsmmE7.mp4)
 
-## Available Scripts
+A cyberpunk-styled interactive animation that visually explains how the Tor network provides anonymity online. 
+Perfect for educational videos, presentations, or learning about Tor's architecture.
 
-In the project directory, you can run:
+## 🧅 Overview
 
-### `npm start`
+This React-based animation illustrates the core components of the Tor network:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User**: Initiates connection and encrypts data in multiple layers
+- **Guard Node**: First relay; knows user identity but not destination
+- **Middle Node**: Relay that knows neither user nor destination
+- **Exit Node**: Final relay that connects to the destination
+- **Destination**: Target server, unaware of the user's identity
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The animation features a Matrix-inspired (of course) digital rain background and shows how data packets travel through the encrypted circuit.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation
 
-### `npm run build`
+```bash
+# Clone this repository
+git clone https://github.com/DoingFedTime/tor-network-animation.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Navigate to the project directory
+cd tor-network-animation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start the development server
+npm start
+```
 
-### `npm run eject`
+## 💻 Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+After starting the development server with `npm start`, the animation will open in your browser at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Animated Explanation**: Each node and its role is highlighted as data moves through the network
+- **Technical Details**: Includes a section with technical specifications
+- **Cyberpunk Aesthetic**: Matrix-style digital rain and neon highlights
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Technologies Used
 
-## Learn More
+- React
+- Tailwind CSS
+- Lucide Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Code Splitting
+## 🙏 Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The Tor Project for their ongoing work in privacy and anonymity
+- Matrix digital rain effect inspired by the Matrix films
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [Sam Bent](https://sambent.com/social-media/) | [YouTube Channel](https://youtube.com/@Sam_Bent)
